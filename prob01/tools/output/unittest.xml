@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" time="0.017" timestamp="2021-12-06T13:17:11" name="AllTests">
+  <testsuite name="VectorTest" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2021-12-06T13:17:11">
+    <testcase name="ReturnsNegativeOneForEmptyVector" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="VectorTest" />
+    <testcase name="ReturnsZeroForOneElementVector" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="VectorTest" />
+    <testcase name="ReturnsIndexOfFirstElementInSortedVector" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="VectorTest" />
+    <testcase name="ReturnsIndexOfMiddleElementInUnsortedVector" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="VectorTest" />
+    <testcase name="ReturnsIndexOfLastElement" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="VectorTest" />
+  </testsuite>
+  <testsuite name="ArrayTest" tests="5" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-12-06T13:17:11">
+    <testcase name="ReturnsNegativeOneForEmptyArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="ArrayTest" />
+    <testcase name="ReturnsZeroForOneElementArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="ArrayTest" />
+    <testcase name="ReturnsIndexOfFirstElementInSortedArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="ArrayTest" />
+    <testcase name="ReturnsIndexOfMiddleElementInUnsortedArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="ArrayTest" />
+    <testcase name="ReturnsIndexOfLastElement" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="ArrayTest" />
+  </testsuite>
+  <testsuite name="PointerTest" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2021-12-06T13:17:11">
+    <testcase name="ReturnsNegativeOneForEmptyArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="PointerTest" />
+    <testcase name="ReturnsZeroForOneElementArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="PointerTest" />
+    <testcase name="ReturnsIndexOfFirstElementInSortedArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="PointerTest" />
+    <testcase name="ReturnsIndexOfMiddleElementInUnsortedArray" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="PointerTest" />
+    <testcase name="ReturnsIndexOfLastElement" status="run" result="completed" time="0" timestamp="2021-12-06T13:17:11" classname="PointerTest" />
+  </testsuite>
+  <testsuite name="MainTest" tests="2" failures="0" disabled="0" errors="0" time="0.016" timestamp="2021-12-06T13:17:11">
+    <testcase name="ZeroElements" status="run" result="completed" time="0.01" timestamp="2021-12-06T13:17:11" classname="MainTest" />
+    <testcase name="SeveralElements" status="run" result="completed" time="0.006" timestamp="2021-12-06T13:17:11" classname="MainTest" />
+  </testsuite>
+</testsuites>

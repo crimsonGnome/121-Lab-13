@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" time="0.002" timestamp="2021-12-08T00:09:47" name="AllTests">
+  <testsuite name="MazeData" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2021-12-08T00:09:47">
+    <testcase name="Getters" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="MazeData" />
+  </testsuite>
+  <testsuite name="LoadMap" tests="10" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-12-08T00:09:47">
+    <testcase name="MapFileDoesNotExist" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="MapDimensions1" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="MapDimensions2" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="StartLoc1" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="StartLoc2" status="run" result="completed" time="0.001" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="GoalLoc1" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="GoalLoc2" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="NoStart" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="NoGoal" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+    <testcase name="Valid" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="LoadMap" />
+  </testsuite>
+  <testsuite name="GetElement" tests="6" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-12-08T00:09:47">
+    <testcase name="kWall" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+    <testcase name="kGround" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+    <testcase name="kStart1" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+    <testcase name="kStart2" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+    <testcase name="kGoal1" status="run" result="completed" time="0.001" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+    <testcase name="kGoal2" status="run" result="completed" time="0" timestamp="2021-12-08T00:09:47" classname="GetElement" />
+  </testsuite>
+</testsuites>
